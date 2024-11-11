@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Work Sans;
+    overflow-x: hidden;
+}
+.nav{
+    background-color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    position: -webkit-sticky;
+}
+ul{
+    margin-left: auto;
+    display: flex;
+gap: 100px;
+padding-right: 50px;
+list-style: none;
+cursor: pointer;
+}
+
+.logo{
+    height: 100px;
+    padding-left: 10px;
+}
+.firstpage{
+    height: 88vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first{
+    height: 300px;
+    border-radius: 16px;
+    z-index: 0;
+    box-shadow: gray 5px 5px 5px;
+    transition: 0.8s;
+
+}
+.second{
+    height: 640px;
+    border-radius: 16px;
+  z-index: 1;
+  box-shadow: gray 5px 5px 5px;
+  transition: 1s;
+}
+.logo2{
+   height: 300px; 
+   position: absolute;
+
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s ;
+}
+.paragraph{
+    width: 500px;
+}
+#down{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: start;
+}
+#down:hover{
+    font-size: 20px;
+    transition: 0.3s;
+    color: orangered;
+}
+.secondpage{
+    background-color: #222;
+    height: 100vh;
+}
+
+.serveses{
+    color: white;
+    font-size: 160px;
+    margin: 0;
+   display: flex;
+   justify-content:left ;
+   position: absolute;
+
+}
+.our{
+writing-mode: vertical-lr;
+padding-top: 100px;
+color: orangered;
+font-family: Dancing Script;
+
+}
+
+
+.cards{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: end;
+flex-direction: row;
+padding-left: 150px;
+padding-bottom: 30px;
+gap: 500px;
+transition: 1s;
+}
+.cards img{
+    border-radius: 16px;
+}
+.card1{
+background-color: white;
+width: 260px;
+border-radius:16px ;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.card2{
+    background-color: white;
+    width: 260px;
+    border-radius:16px ;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card3{
+    background-color: white;
+    width: 260px;
+    border-radius:16px ;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card4{
+    background-color: white;
+    width: 260px;
+    border-radius:16px ;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head{
+    font-family: Dancing Script;
+    font-size: 130px;
+    color: orangered;
+}
+.lastepage{
+    background-color: #fefae0;
+    font-family: Dancing Script;
+    font-size: 120px;
+    height: 105vh;
+display: flex;
+flex-direction: column;
+
+
+}
+.reserv{
+    background-image: url(tt.jpg);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: pooping;
+}
+.resrvation{
+    height: 200px;
+    width: 1000px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.fill{
+    font-size: 25px;
+    font-family: poping;
+    color: orangered;
+    padding-left: 10px;
+}
+.inputs{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    justify-content: space-between;
+
+}
+.submit{
+    width: 200px;
+    height: 50px;
+ border-radius: 16px;
+ font-size: 20px;
+
+}
+.submit:hover{
+    width: 210px;
+    height: 55px;    
+    transition: 0.3s;    
+    color: white;
+    background-color: black;
+}
+.cards img:hover{
+    width: 270px;
+    overflow: hidden;
+
+}
+.solve{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 50px;
+   padding: 0;
+   transition: 1s;
+}
+.now{
+    font-family: popping;
+    background-image: url(tt.jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.finde{
+    font-family: popping;
+    font-size: large;
+    text-align: center;
+}
+.map{
+    height: 200px;
+    width: 100%;
+}
+.end{
+    font-size: large;
+    font-family: popping;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.checkin{
+
+}
+.inputs input{
+        height: 40px;
+    border: gray solid;
+    border-radius: 16px;
+    text-align: center;
+}
